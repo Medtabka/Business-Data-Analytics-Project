@@ -1,0 +1,13 @@
+Feature,Importance
+num__RecencyDays,0.019939027897612805
+num__TotalLines,0.014422203048605031
+num__Frequency,0.008645383951682383
+num__Monetary,0.006628702904802886
+num__TotalQty,0.005167098073051368
+num__UniqueProducts,0.003542134023583432
+num__AvgBasketValue,0.0017975266033936177
+num__ReturnsRatio,0.0
+num__Momentum30d,0.0
+cat__Country_France,-0.00013517400057526662
+num__AvgBasketSize,-0.00021110152430261486
+num__TenureDays,-0.00312798389416169
