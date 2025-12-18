@@ -1,6 +1,6 @@
 # Online Retail, Customer Churn Prediction
 
-This repo predicts customer churn (90-day inactivity) from the UCI Online Retail dataset using time aware feature/label windows. It includes RFM, lifecycle features, leakage-safe splits, and three models (LogReg, RandomForest, XGBoost).
+This repo predicts customer churn (90-day inactivity) from the UCI Online Retail dataset using time aware feature/label windows. It includes RFM, lifecycle features, leakage-safe splits, and three models (LogReg, RandomForest, XGBoost). Note: The data folder is not included in repo, create a data folder and add subfolders (cleaned, processed, raw) and adjust paths in files if needed.
 
 ## Repository Structure:
 1- data folder: contains cleaned and raw data for training models and predicting churn.
@@ -52,4 +52,5 @@ streamlit run app/app.py
 
 and it will locally run our app where you can upload test data in predict section, and it will give you predictions. You can also go to explainability section, upload there the file data/processed/main_ds.csv, its the processed file while training the model, upload there, select a customer, and press explain button, wait it ll take some time for processing, and it will give you nunced insights, waterfall charts for that specific customer.
  
+
 
